@@ -4,5 +4,6 @@ export const PATHS = {
     cart: '/cart',
     notFound:"*",
     register:"/register",
-    login:"/login"
+    login:"/login",
+    Todo:"/Todo"
   }

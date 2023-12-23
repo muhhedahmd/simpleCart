@@ -92,7 +92,7 @@ form label{
   font-size: .9rem;
 
 }
-form input {
+form input   , .add_input{
   border-radius: 4px;
   transition: .3s;
   border: 2px solid #dddddd;
@@ -170,4 +170,18 @@ form button[type="button"]{
   border: 1px solid #0c0c0c;
   background-color: rgb(255, 0, 0);
   cursor:pointer;
+}
+
+
+.Edit-inp{
+  width: 100%;
+  padding: .5rem;
+  font-size:.8rem;
+  background-color: #7c7c7c;
+  color: #fff;
+  word-spacing: .25px;
+  border: none;
+  outline: none !important;
+  margin:  0 0 .5rem 0;
+  border-radius: 4px;
 }

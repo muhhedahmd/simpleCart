@@ -32,6 +32,12 @@ const Header = () => {
         <li>
           {state.count??state.count}
         </li>
+        <li >
+        <Link to={PATHS.Todo}>
+          Todo
+
+        </Link>
+        </li>
         <li style={{padding:"2px 8px", borderRadius:"50%" , backgroundColor:"red"}}>
           {totalCount}
         </li>

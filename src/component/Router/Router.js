@@ -7,6 +7,7 @@ import Login from '../Login';
 import Signup from '../Signup';
 import { PATHS } from './Paths';
 import { useAuth } from '../../contexts/Authcontext';
+import Cred from '../Cred';
 
 const UseRouter = () => {
   const { isAuthenticated } = useAuth();
@@ -21,6 +22,7 @@ const UseRouter = () => {
       ]
     },
     { path: PATHS.register, element: <Signup /> },
+    { path: PATHS.Todo, element: <Cred/>},
     { path: "*", element: <h2>Page not found</h2> }
   ]);
 
