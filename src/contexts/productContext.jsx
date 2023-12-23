@@ -9,6 +9,7 @@ const ProductProvider = ({ children }) => {
 };
 
 export default ProductProvider;
+// Custom hook to access the context
 
 export const UseProductContext = () => {
   return useContext(ProductContext);

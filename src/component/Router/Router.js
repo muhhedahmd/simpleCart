@@ -10,7 +10,6 @@ import { useAuth } from '../../contexts/Authcontext';
 
 const UseRouter = () => {
   const { isAuthenticated } = useAuth();
-
   const routes = useRoutes([
     { path: PATHS.login, element: isAuthenticated ? <Navigate to={PATHS.home} /> : <Login /> },
     {
