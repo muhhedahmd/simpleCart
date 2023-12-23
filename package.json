@@ -1,8 +1,5 @@
 {
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
-  },
-
+  
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +22,9 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.3.3"
     
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
